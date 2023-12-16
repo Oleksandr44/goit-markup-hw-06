@@ -1188,7 +1188,6 @@ check:focus + .check-text > .check-bord {
   .end {
     padding-top: 100px;
     padding-bottom: 100px;
-    max-width: 1440px;
   }
 
   .container-logo {
