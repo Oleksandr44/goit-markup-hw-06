@@ -50,6 +50,7 @@ ul {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 button {
@@ -198,6 +199,7 @@ button {
 
   .address-mobile {
     display: flex;
+    font-style: normal;
     flex-direction: column-reverse;
     gap: 24px;
     margin-bottom: 48px;
@@ -692,7 +694,9 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 288px;
+
+  max-width: 408px;
+  width: calc(100%-32px);
   min-height: 623px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -1073,7 +1077,6 @@ check:focus + .check-text > .check-bord {
 
   /*TABLET BACKDROP*/
   .modal {
-    width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
   }
